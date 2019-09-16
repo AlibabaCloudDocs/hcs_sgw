@@ -65,7 +65,7 @@ NFS（Network File System，网络文件系统） 允许网络中的计算机之
     |**反向同步**|将OSS上的元数据同步回本地。适用于网关容灾和数据恢复/共享场景。 **说明：** 反向同步会扫描Bucket下的所有对象，如果对象数量较多，会产生OSS API请求费用。具体费用，请参见[对象存储 OSS 详细价格信息](https://www.aliyun.com/price/product?spm=a2c4g.11186623.2.26.18277b55Ki5BVd#/oss/detail)中的请求费用。
 
  |
-    |**加密类型**|包括**不加密**和**服务端加密**。 如果选择**服务端加密**，还需设置**密钥ID**。您可以在[密钥管理服务控制台](https://kms.console.aliyun.com/)[密钥管理服务控制台](partners-intl.console.aliyun.com/#/kms)中创建密钥，详情请参见[创建密钥](../../../../cn.zh-CN/快速入门/管理密钥.md#section_yhn_otu_mvs)。
+    |**加密类型**|包括**不加密**和**服务端加密**。 如果选择**服务端加密**，还需设置**密钥ID**。您可以在[密钥管理服务控制台](https://kms.console.aliyun.com/)中创建密钥，详情请参见[创建密钥](../cn.zh-CN/快速入门/管理密钥.md#section_yhn_otu_mvs)。
 
  开启OSS服务端加密后，允许用户自带密钥，目前支持从密钥管理服务中导入KMS密钥。
 
@@ -116,5 +116,5 @@ NFS（Network File System，网络文件系统） 允许网络中的计算机之
  |
 |修改NFS共享|在NFS页面中，找到目标NFS共享，单击**设置**或**高级设置**，修改NFS共享。|
 
-[访问NFS共享目录](../../../../cn.zh-CN/本地控制台用户指南/文件网关/访问共享目录/访问NFS共享目录.md#)
+[访问NFS共享目录](../cn.zh-CN/本地控制台用户指南/文件网关/访问共享目录/访问NFS共享目录.md#)
 
