@@ -38,7 +38,7 @@ This topic provides the release notes of Cloud Storage Gateway \(CSG\).
 -   The duplicate mode of file gateways is enhanced to replicate data to local clients. This feature is available only to selected users.
 
 |-   [Enable transfer acceleration](/intl.en-US/User Guide (Alibaba Cloud)/File Gateway/Enable transfer acceleration.md)
--   [Integration with CloudMonitor](/intl.en-US/Best Practice/Features/Integration with CloudMonitor.md) |
+-   [Integration with Cloud Monitor](/intl.en-US/Best Practice/Features/Integration with Cloud Monitor.md) |
 |Optimization of user experience: -   CSG supports API operations.
 -   CSG can be integrated with Cloud Monitor.
 -   The upload performance of big files in file gateways is improved.
