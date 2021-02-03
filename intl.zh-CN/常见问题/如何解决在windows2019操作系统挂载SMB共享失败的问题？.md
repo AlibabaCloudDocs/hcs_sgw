@@ -11,7 +11,11 @@
 解决方法 
 -------------------------
 
-1. 在本地Windows客户端，输入组合键`Win+R`打开 **运行** ，输入`gped``it.msc`，单击 **确定** 。![error](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/5037911061/p170732.png)
+1. 在本地Windows客户端，输入组合键`Win+R`打开 **运行** ，输入`gpedit.msc`，单击 **确定** 。
+
+   
+
+   ![error](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/zh-CN/5037911061/p170732.png)
 
    
 
@@ -23,8 +27,9 @@
 
    
 
-4. 在 **启用不安全的来宾登录** 对话框，选中 **已启用** ，单击 **应用** 。![p169871](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/8268990061/p169992.png)
+4. 在 **启用不安全的来宾登录** 对话框，选中 **已启用** ，单击 **应用** 。
 
+   ![p169871](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/zh-CN/8268990061/p169992.png)
    
 
 5. 挂载使用SMB共享。
