@@ -26,11 +26,11 @@
 
     2.  在发现目标门户对话框中，配置IP（IPv4或者IPv6）地址并单击**确定**。
 
-        -   在IP地址对话框中输入IPv4地址，如图：
+        -   在IP地址或DNS名称（I）文本框中输入IPv4地址，如图：
 
             ![发现目标](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/zh-CN/0153559951/p60006.png)
 
-        -   在IP地址对话框中输入IPv6地址，如图：
+        -   在IP地址或DNS名称（I）文本框中输入IPv6地址，如图：
 
             ![ipv6](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/zh-CN/9891240161/p212635.png)
 
@@ -43,7 +43,7 @@
 
             -   网关从v1.6.0版本开始支持IPv6。
             -   IPv6方式下挂载目前仅呼和浩特区域支持，网关所使用的VPC和VSwitch要支持使用IPv6。
-            -   IPv6方式的 ，使用前请先确保所使用的ECS客户端已经配置了IPv6地址。
+            -   IPv6方式的挂载，前请先确保所使用的ECS客户端已经配置了IPv6地址。
             -   如果已有网关所使用的VPC和VSwitch支持IPv6，则可以在网关操作列表中启用IPv6后，在网关列表的服务IP第二行获取IPv6地址，而在此VPC下新创建的网关默认直接支持IPv6，不需要进行启用操作。
 5.  连接iSCSI卷。
 
@@ -59,7 +59,7 @@
 
         **说明：** 如果您在创建iSCSI卷时，启用了CHAP认证，则需要在高级设置对话框中设置CHAP认证信息后，才能使用iSCSI卷。
 
-        在高级设置对话框中，勾选**启动 CHAP 登录**，并设置名称和目标机密。
+        在高级设置对话框中，选中**启动 CHAP 登录**，并设置名称和目标机密。
 
         -   在**名称**框中输入创建iSCSI卷时设置的入站CHAP用户。
         -   在**目标机密**框中输入创建iSCSI卷时设置的入站CHAP密码。
