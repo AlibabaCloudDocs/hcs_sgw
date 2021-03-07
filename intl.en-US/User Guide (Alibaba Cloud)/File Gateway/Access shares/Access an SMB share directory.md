@@ -39,7 +39,7 @@ An SMB share is created. For more information, see [Create a share](/intl.en-US/
 
     If the following information appears, the share directory is mounted on the on-premises directory of the CSG agent.
 
-    ![Mounting result](../images/p57999.png)
+    ![Mounting result](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/5688115161/p57999.png)
 
 7.  Access a share directory.
 
