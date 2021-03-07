@@ -2,13 +2,13 @@
 
 This topic describes how to deploy an on-premises console for a file gateway by using an image. You must download and install the image. Then, you must configure network settings and activate the file gateway.
 
-1.  You have registered an Alibaba Cloud account and passed real-name verification. For more information, see [Sign up with Alibaba Cloud](https://www.alibabacloud.com/help/zh/doc-detail/50482.html).
+1.  An Alibaba Cloud account is created and the real-name verification is completed. For more information, see [Create an Alibaba Cloud account](https://www.alibabacloud.com/help/zh/doc-detail/50482.html).
 
     **Note:** We recommend that you log on to the CSG console as a RAM user. For more information, see [Use RAM to implement account-based access control](/intl.en-US/Best Practice/Use RAM to implement account-based access control.md).
 
-2.  You have activated CSG.
+2.  CSG is activated.
 
-    If this is your first time logging on to the , follow the instructions on the page to activate CSG.
+    When you log on to the for the first time, activate the CSG service as prompted.
 
 3.  An Alibaba Cloud AccessKey pair is created. You can log on to the [User Management console](https://usercenter.console.aliyun.com/#/manage/ak) to obtain your AccessKey pair.
 
@@ -44,7 +44,7 @@ Installation methods and installation files vary depending on the hypervisor. Yo
 
 2.  Select the region where you want to create a file gateway.
 
-3.  On the Gateway Clusters page, select the target gateway cluster, and then click **Create**.
+3.  In the left-side navigation pane, click Gateways. On the Current Gateway Cluster page, select the gateway cluster, and then click **Create**.
 
     If you have not created a gateway cluster, click **Create Gateway Cluster** on the Overview page to create a gateway cluster.
 
@@ -57,12 +57,12 @@ Installation methods and installation files vary depending on the hypervisor. Yo
     |**Category**|Select the category of the gateway. In this example, select **Storage Gateway**.|
     |**Type**|Select the type of the gateway. In this example, select **File Gateway**.|
 
-5.  Click Next to go to the **Paid Information** tab. Set the following parameters and click **Next**.
+5.  In the **Billing Information** step, set the required parameters, and then click **Next**. The following table describes the parameters.
 
     |Parameter|Description|
     |---------|-----------|
-    |**Billing Method**|Supported billing methods include **Pay-as-you-go** and **Subscription**. For more information, see [Pricing](/intl.en-US/Pricing/Pricing.md). If you select **Subscription**, after you create the file gateway, you are redirected to the buy page of CSG to settle the payment. For more information, see [Purchase Cloud Storage Gateway](/intl.en-US/Pricing/Subscription/Purchase a gateway.md). |
-    |**After Expiration**|Specify how the the gateway is processed after it expires. You can select **Pay-as-you-go** or **Release After Expiration**.|
+    |**Billing Method**|The method that the system uses to calculate fees for the gateway. Valid values: **Pay-as-you-go** and **Subscription**. For more information, see [Billable items and billing methods](/intl.en-US/Pricing/Billable items and billing methods.md). If you select **Subscription**, after you create the file gateway, you are redirected to the Cloud Storage Gateway \(Subscription\) page. Then, you must complete the payment as prompted. For more information, see [Purchase a subscription gateway](/intl.en-US/Pricing/Subscription/Purchase a subscription gateway.md). |
+    |**Expiration Policy**|Select an expiration policy for the gateway. Valid values: **Switch to Pay-as-you-go** and **Release**.|
 
 6.  On the Image Download tab, download the required image to your on-premises machine.
 
