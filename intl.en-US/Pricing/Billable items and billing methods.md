@@ -29,7 +29,7 @@ CSG supports the subscription and pay-as-you-go billing methods.
 
     **Note:** The billing system has latency. Therefore, you may not receive the bill for the previous hour on time. For example, the bill you receive at 09:30 may cover the resources consumed from 07:00 to 08:00.
 
--   [Subscription](/intl.en-US/Pricing/Subscription/Purchase a gateway.md): You are charged by using the subscription billing method. This billing method provides more discounts than the pay-as-you-go billing method in a billing cycle.
+-   [Subscription](/intl.en-US/Pricing/Subscription/Purchase a subscription gateway.md): You are charged by using the subscription billing method. This billing method provides more discounts than the pay-as-you-go billing method in a billing cycle.
 
 ## Other fees
 
