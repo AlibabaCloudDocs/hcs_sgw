@@ -6,7 +6,7 @@ This topic describes the following service linked roles of Cloud Storage Gateway
 Background information 
 -------------------------------------------
 
-Resource Access Management (RAM) provides the following service linked roles for CSG: AliyunServiceRoleForHCSSGW and AliyunServiceRoleForHCSSGWLogMonitor. These roles allow CSG to access the resources of other cloud resources. For more information, see [Service linked roles](https://help.aliyun.com/document_detail/160674.html#concept-2448621).
+Resource Access Management (RAM) provides the following service linked roles for CSG: AliyunServiceRoleForHCSSGW and AliyunServiceRoleForHCSSGWLogMonitor. These roles allow CSG to access the resources of other cloud resources. 
 
 In some scenarios, you may need to use CSG to create an elastic network interface, topics, queues, or subscriptions and use Key Management Service (KMS) to encrypt data. You may also need to use CSG to access, upload, download, and manage data in Object Storage Service (OSS) buckets. To do so, you can use the AliyunServiceRoleForHCSSGW service linked role to authorize CSG to access ECS resources, virtual private cloud (VPC) resources, KMS resources, and OSS resources.
 
@@ -223,6 +223,4 @@ Delete the service linked roles
 ----------------------------------------------------
 
 Before you delete the AAliyunServiceRoleForHCSSGW or AliyunServiceRoleForHCSSGWLogMonitor service linked role, you must delete all gateways in the CSG console.
-
-For more information, see [Delete a service linked role](https://help.aliyun.com/document_detail/160674.html#section-b9f-8dv-b5q).
 
