@@ -53,7 +53,7 @@ After you create a synchronization group, all data changes in the OSS bucket are
 
     Go to the **Sync Group List** page, and click the synchronization group name in the **Sync Group Name** column or click **Details** in the **Actions** column.
 
-    In the **Sync Group Details** dialog box, you can view the details of the synchronization group. You can also click the List icon ![](../images/p68714.png) to view the details in a list, or click the Map icon ![](../images/p68715.png) to view the details on a map. The **Sync Group Details** dialog box shows the basic information of the synchronization group and the shares in the group. You can also view the following information from the list.
+    In the **Sync Group Details** dialog box, you can view the details of the synchronization group. You can also click the List icon ![](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/5599615161/p68714.png) to view the details in a list, or click the Map icon ![](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/6599615161/p68715.png) to view the details on a map. The **Sync Group Details** dialog box shows the basic information of the synchronization group and the shares in the group. You can also view the following information from the list.
 
     |Item|Description|
     |----|-----------|
@@ -73,6 +73,6 @@ After you create a synchronization group, all data changes in the OSS bucket are
 
 -   Delete a synchronization group.
 
-    If you want to delete a synchronization group, click**Delete** in the **Actions** column for the target synchronization group. In the dialog box that appears, click **OK**.
+    If you want to delete a synchronization group, click **Delete** in the **Actions** column for the target synchronization group. In the dialog box that appears, click **OK**.
 
 
