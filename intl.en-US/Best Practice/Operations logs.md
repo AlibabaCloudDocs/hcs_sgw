@@ -27,7 +27,7 @@ View operations logs
 CSG operations logs recorded in ActionTrail 
 ----------------------------------------------------------------
 
-CSG operations logs record API events. The value of the eventType parameter for OpenAPI events is set to ApiCall in ActionTrail. For more information, see [Cloud Storage Gateway APIs](https://help.aliyun.com/document_detail/170253.html?spm=a2c4g.11174283.6.662.722e4b55T0Ed9w).
+CSG operations logs record API events. The value of the eventType parameter for OpenAPI events is set to ApiCall in ActionTrail. 
 
 The following table lists the API events that are not included in the preceding topic.
 
