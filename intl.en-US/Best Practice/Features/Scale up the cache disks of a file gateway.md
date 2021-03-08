@@ -2,19 +2,11 @@
 
 This topic describes how to scale up the cache disks of a file gateway.
 
-In the current climate, business changes take place all the time, and underlying systems must be scaled to meet these changes. If the local cache capacity of a cloud storage gateway \(CSG\) no longer meets your business requirements, you can scale up the cache disks of the gateway to increase the capacity. If the workloads increase and the local cache capacity cannot handle the new workload, you can scale up the cache disks. The cache capacity in use cannot be scaled up. You must configure the scale-up process. The following example shows you how to scale up the cache disks of a file gateway in the CSG console and the local console of the file gateway. We recommend that you use the specified formula to calculate the cache capacity of a file gateway. For more information, see [Instructions](https://help.aliyun.com/document_detail/132027.html?).
+In the current climate, business changes take place all the time, and underlying systems must be scaled to meet these changes. If the local cache capacity of a cloud storage gateway \(CSG\) no longer meets your business requirements, you can scale up the cache disks of the gateway to increase the capacity. If the workloads increase and the local cache capacity cannot handle the new workload, you can scale up the cache disks. The cache capacity in use cannot be scaled up. You must configure the scale-up process. The following example shows you how to scale up the cache disks of a file gateway in the CSG console and the local console of the file gateway. We recommend that you use the specified formula to calculate the cache capacity of a file gateway. For more information.
 
 ## Prepare for the scale-up of the cache disks
 
-When you scale up the cache disks, you must detach the file system. Therefore, make sure that no I/O write operations are performed and all NFS and SMB clients have stopped reading and writing during the scale-up process. Unmount CSG on all clients. Wait until the cache disks of the file gateway on the Share page is in the Sync Completed state, as shown in the following figure.
-
-CSG console:
-
-![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/123654/cn_zh/1561692590435/4.png)
-
-Local console of the gateway
-
-![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/123654/cn_zh/1561692607761/5.png)
+When you scale up the cache disks, you must detach the file system. Therefore, make sure that no I/O write operations are performed and all NFS and SMB clients have stopped reading and writing during the scale-up process. Unmount CSG on all clients. Wait until the cache disks of the file gateway on the Share page is in the Sync Completed state, as shown in the following figu
 
 ## Delete other CSG instances that are associated with the OSS bucket
 
@@ -24,11 +16,7 @@ Back up the configurations of the file gateway \(bucket, share name, access cont
 
 Log on to the CSG console. Click Cache in the left-side navigation pane. On the page that appears, click the Add icon in the Actions column, as shown in the following figure.
 
-![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/123654/cn_zh/1561692670230/6.png)
-
 Click the Add icon in the Actions column. The following window appears.
-
-![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/123654/cn_zh/1561692691800/7.png)
 
 Specify a new cache capacity to scale up the cache disks. The minimum cache capacity is 1 GB. Click OK. A purchase order is generated. After you confirm the purchase and complete the payment, the scale-up process is complete. You can view the new cache capacity in the CSG console.
 
@@ -36,5 +24,5 @@ If you want to scale up the cache disks of a local file gateway, you must go to 
 
 ## Recreate shares
 
-Recreate shares based on the previous share names and configurations. When you recreate shares, select the cache disks that are scaled up. The new shares show the new cache capacity. For more information, see [Manage shares](https://help.aliyun.com/document_detail/108256.html?spm=a2c4g.11174283.6.554.753b4b55eIYh8Z) or [Manage NFS shares](https://help.aliyun.com/document_detail/108276.html?spm=a2c4g.11186623.6.564.32b779e6RNzJNC).
+Recreate shares based on the previous share names and configurations. When you recreate shares, select the cache disks that are scaled up. The new shares show the new cache capacity. For more information, see.
 
