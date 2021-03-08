@@ -8,8 +8,8 @@ When you create a file gateway, the public bandwidth is not configured by defaul
 -   You can configure the public bandwidth when you create a file gateway. The default value is 5 Mbit/s.
 -   You can upgrade the public bandwidth of a file gateway on the Gateways page.
 -   This section describes the billing items of the public bandwidth feature.
-    1.  You are charged by Cloud Storage Gateway for configuring the public bandwidth feature. For more information, see [Pricing](/intl.en-US/Pricing/Pricing.md).
-    2.  You are also charged by OSS for accessing OSS resources. For more information, see [Traffic fees](https://help.aliyun.com/document_detail/173535.html?spm=a2c4g.11174283.6.573.76c37da2MRZekh).
+    1.  You are charged by Cloud Storage Gateway for configuring the public bandwidth feature. For more information, see [Billable items and billing methods](/intl.en-US/Pricing/Billable items and billing methods.md).
+    2.  You are also charged by OSS for accessing OSS resources. For more information, see [Traffic fees](/intl.en-US/Pricing/Billing items and methods/Traffic fees.md).
 
 1.  Log on to the .
 
