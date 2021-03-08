@@ -22,18 +22,10 @@ This topic describes how to connect to and use iSCSI volumes on a CSG agent on a
 
     1.  In the iSCSI Initiator Properties dialog box, click the Discovery tab, and then click **Discover Portal**.
 
-        ![Click Discover Portal](../images/p60004.png)
-
     2.  In the Discover Target Portal dialog box, enter the IPv4 address or IPv6 address of the block gateway. Click **OK**.
 
         -   Enter the IPv4 address in the Discover Target Portal dialog box, as shown in the following figure.
-
-            ![Discover the target portal](../images/p60006.png)
-
         -   Enter the IPv6 address in the Discover Target Portal dialog box, as shown in the following figure.
-
-            ![ipv6](../images/p212635.png)
-
         -   The port number is set to 3260 by default. We recommend that you do not change the setting.
         -   For example, 10.0.0.0 is the IPv4 address of a block gateway, and 2408:4004:110:6000:4656:f88e:1c14:e578 is the IPv6 address of a block gateway.
 
@@ -49,11 +41,7 @@ This topic describes how to connect to and use iSCSI volumes on a CSG agent on a
 
     1.  In the iSCSI Initiator Properties dialog box, click the Target tab and then click **Connect**.
 
-        ![Click Connect](../images/p60007.png)
-
     2.  In the Connect to Target dialog box, select the iSCSI volume and the **Add this connection to the list of Favorite Targets** check box.
-
-        ![Connect to the iSCSI volume](../images/p60009.png)
 
     3.  Optional. In the Connect to Target dialog box, click **Advanced** and configure CHAP settings. **Click OK**.
 
@@ -63,13 +51,9 @@ This topic describes how to connect to and use iSCSI volumes on a CSG agent on a
 
         -   In the **Name** field, enter the CHAP username that you set when you created the iSCSI volume.
         -   In the **Target secret** field, enter the CHAP password that you set when you created the iSCSI volume.
-        ![CHAP authentication](../images/p60116.png)
-
     4.  Verify that the connection is established.
 
         If the status of the iSCSI volume is **Connected**, the connection is established.
-
-        ![Verify the connection](../images/p60013.png)
 
 
 ## View the iSCSI volume
@@ -79,8 +63,6 @@ To view a connected iSCSI volume, perform the following steps:
 1.  Open the Computer Management tool and choose **Disk Management** \> **Rescan Disks** to discover the newly added disk.
 
     After the connection is established, you can use the iSCSI volume on your ECS instance.
-
-    ![View the iSCSI volume](../images/p60017.png)
 
 
 ## Delete the iSCSI volume
