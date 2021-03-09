@@ -51,6 +51,4 @@ By default, a new RAM user or group does not have permissions. You must use the 
     -   AliyunOSSFullAccess: provides full access to Object Storage Service \(OSS\).
     -   AliyunVPCFullAccess: provides full access to Virtual Private Cloud \(VPC\).
     -   AliyunECSFullAccess: provides full access to Elastic Compute Service \(ECS\).
-    ![Add Permissions panel](../images/p58687.png)
-
 
