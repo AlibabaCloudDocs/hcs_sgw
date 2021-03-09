@@ -56,6 +56,6 @@ When you use the CSG service, the following fees may be incurred:
 
 -   Fees for using transfer acceleration in OSS
 
-    After you enable the transfer acceleration feature for a share, the public bandwidth of the gateway is used to increase the speed of cross-region data transmission. For information about the related fees, see [Transfer acceleration fees](https://help.aliyun.com/document_detail/59636.html#title-dtc-l5t-9gt).
+    After you enable the transfer acceleration feature for a share, the public bandwidth of the gateway is used to increase the speed of cross-region data transmission. For information about the related fees, see [Transfer acceleration fees](/intl.en-US/Pricing/Billing items and methods/Overview.md).
 
 
