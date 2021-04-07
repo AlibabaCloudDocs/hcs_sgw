@@ -69,7 +69,7 @@ Installation methods and installation files vary depending on the hypervisor. Yo
 
 ## Step 2: Install the image
 
-After you download the image, you can use it to deploy an on-premises console for the file gateway. For more information, see [How do I deploy Cloud Storage Gateway instances in on-premises data centers?](https://help.aliyun.com/knowledge_detail/54123.html)
+After you download the image, you can use it to deploy an on-premises console for the file gateway.
 
 ## Step 3: Configure network settings
 
