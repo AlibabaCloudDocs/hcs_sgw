@@ -2,7 +2,7 @@
 
 This topic describes the billable items and billing methods of Cloud Storage Gateway \(CSG\).
 
-For more information about the pricing of CSG resources, see [CSG pricing](https://www.aliyun.com/price/product?spm=5176.144914.752642.btn2.4fb67d70aqt177#/hcs_sgw/detail).
+For more information about the pricing of CSG resources, see [CSG pricing](https://www.alibabacloud.com/product/hcs_sgw/pricing?spm=a2796.7960336.8215766810.70.2b2db91amvqCe1).
 
 ## Billable items
 
