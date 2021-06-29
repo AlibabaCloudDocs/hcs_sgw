@@ -6,7 +6,7 @@ This topic provides a solution for an error that may occur when you mount an SMB
 Issue 
 --------------------------
 
-When you mount an SMB share on Windows Server 2019, an error occurs, as shown in the following figure.
+When you mount an SMB share on Windows Server 2019, an error occurs.
 
 Solution 
 -----------------------------
